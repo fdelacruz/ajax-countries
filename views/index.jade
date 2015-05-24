@@ -1,5 +1,11 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Ajax Countries
+
+  //- Button to handle getting all countries
+  p: button#load-countries Load Countries
+
+  //- The placeholder for any countries to be rendered
+  ul#countries-list
+
